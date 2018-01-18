@@ -1,0 +1,12 @@
+Hello world
+<br>
+{% for a in articles %}
+    <h3> {{ a.pk }}</h3>
+    <h1><a href="">{{ a.titre }}</a></h1>
+    <p>{{ a.description }}</p>
+    <i>{{ a.author}}</i>
+    {{ a.created_at }} - {{ a.updated_at}}
+
+    <br>
+
+{% endfor %}
