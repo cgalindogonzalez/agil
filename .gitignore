@@ -4,3 +4,4 @@ venv/
 __pycache__
 .sh
 .txt
+db.sqlite3
